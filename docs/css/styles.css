@@ -1,0 +1,83 @@
+/* Define your color palette */
+:root {
+    --primary: #007bff; /* Bootstrap Primary Color */
+    --secondary: #5980a5; /* Bootstrap Secondary Color */
+    --success: #28a745; /* Bootstrap Success Color */
+    --info: #17a2b8; /* Bootstrap Info Color */
+    --warning: #ffc107; /* Bootstrap Warning Color */
+    --danger: #dc3545; /* Bootstrap Danger Color */
+    --light: #f8f9fa; /* Bootstrap Light Color */
+    --dark: #343a40; /* Bootstrap Dark Color */
+    --white: #ffffff; /* Bootstrap White Color */
+    --black: #000000; /* Black */
+
+    /* Custom section colors */
+    --header-bg: var(--primary);
+    --objective-bg: var(--light);
+    --experience-bg: var(--secondary);
+    --skills-bg: var(--secondary);
+    --education-bg: var(--secondary);
+    --military-bg: var(--secondary); /* Lightest Blue */
+    --footer-bg: var(--primary); /* Lightest Blue */
+    --text-light: var(--white); /* White */
+    --text-dark: var(--black); /* Black */
+}
+
+
+
+/* Apply colors to sections */
+header {
+    background-color: var(--header-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#objective {
+    background-color: var(--objective-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#experienceContent {
+    background-color: var(--experience-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#skills {
+    background-color: var(--skills-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+
+#education {
+    background-color: var(--education-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+#military {
+    background-color: var(--military-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    color: var(--text-dark);
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
