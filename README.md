@@ -34,6 +34,9 @@ Welcome to my professional portfolio! This site serves as an online resume, high
 - **JavaScript**: For adding interactivity to your web pages, including custom scripts in `scripts.js`.
 - **Flask**: A lightweight web framework for Python, used to serve your static site and handle routing.
 - **Python**: The programming language used to run your Flask app.
+- **Jinja2**: The templating engine used by Flask to render HTML templates.
+- **Git**: For version control and managing your codebase.
+- **Werkzeug**: A WSGI utility library used by Flask for request and response handling.
 
 ## Changelog
 

@@ -1,0 +1,5 @@
+# Development dependencies for the Flask app
+# Includes testing libraries and other tools for development
+
+pytest
+pytest-flask

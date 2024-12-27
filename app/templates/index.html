@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Glenn Lehman Resume</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link href="{{ url_for('send_css', path='styles.css') }}" rel="stylesheet"> <!-- Link to your custom stylesheet -->
-</head>
-<body>
+{% extends "layouts/base.html" %}
+
+{% block title %}Home - Glenn Lehman Resume{% endblock %}
+
+{% block content %}
 	<div class="container">
-		<header id="header" class="text-center my-4">
-    		<h1>Glenn Lehman</h1>
-			<p><a href="mailto:admin@glennlehman.com" class="text-light">admin@glennlehman.com</a></p>
-		</header>
 		<section id="objective">
    			<h2>Objective</h2>
 			<p>Detail-oriented and analytical professional with extensive experience in data analysis, project management, and system implementation. Experienced in business and data analytics, ETL processes, data wrangling, and documentation. Adept at developing and maintaining data visualizations and dashboards, with a strong foundation in SQL, Python, and Power BI. Known for balancing technical expertise with strong business acumen to build and maintain internal dashboards within operations teams. Proficient in critical thinking, problem-solving, and effective communication, with a solid foundation in mathematical analysis. Driven by an insatiable curiosity and a commitment to continuous learning, eager to leverage my expertise to enhance data management and documentation processes. Dedicated to continuous improvement, collaborative teamwork, and delivering exceptional results.</p>
@@ -229,17 +220,9 @@
 			</div>
 
 		</section>
-		<footer class="text-center my-4">
-			<p>Contact <a href="mailto:admin@glennlehman.com" class="text-light">admin@glennlehman.com</a></p>
-			<p>&copy; 2024 Glenn Lehman. All rights reserved.</p>
-		</footer>
 
 	</div>
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="{{ url_for('send_js', path='scripts.js') }}"></script>
 
-</body>
+{% endblock %}
 
 </html>
