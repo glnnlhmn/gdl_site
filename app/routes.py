@@ -1,4 +1,4 @@
-from flask import Blueprint, render_template, send_from_directory
+from flask import Blueprint, render_template
 
 main = Blueprint('main', __name__, static_folder='static', template_folder='templates')
 
@@ -6,14 +6,4 @@ main = Blueprint('main', __name__, static_folder='static', template_folder='temp
 @main.route('/')
 @main.route('/index')
 def index():
-    return render_template('index.html')
-
-
-# @main.route('/css/<path:path>')
-# def send_css(path):
-#     return send_from_directory('docs/css', path)
-#
-#
-# @main.route('/js/<path:path>')
-# def send_js(path):
-#     return send_from_directory('docs/js', path)
+    return render_template('pages/index.html')
